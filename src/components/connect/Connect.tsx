@@ -8,7 +8,7 @@ function Connect({}: Props) {
       <p className="col-span-full text-[#121212] font-normal py-3">Contact</p>
       <div className="col-span-full md:col-span-4">
         <h1 className=" text-5xl md:text-7xl text-[#121212] font-light">
-          LET'S MAKE YOUR FASHION BRAND SHINE
+          LET&apos;S MAKE YOUR FASHION BRAND SHINE
         </h1>
       </div>
       <div className="col-span-full my-6 md:my-0 sm:py-0 md:col-span-2 md:col-start-5 lg:col-start-6 flex items-end md:justify-center">

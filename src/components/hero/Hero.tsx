@@ -21,7 +21,7 @@ function Hero({}: Props) {
           & BRANDING
         </h1>
         <p className="col-span-full sm:col-span-4  md:col-span-5 xl:col-start-2 xl:col-span-3 text-xl ">
-          Bringing Your Fashion Brand's Unique Identity to Life Through
+          Bringing Your Fashion Brand&apos;s Unique Identity to Life Through
           Strategic Marketing and Advertising.
         </p>
       </div>
