@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "../component/Button";
 
 type Props = {};
 
@@ -22,6 +23,7 @@ function ArticleCard({}: Props) {
             deleniti?
           </p>
         </div>
+        <Button>read more</Button>
       </div>
     </div>
   );
