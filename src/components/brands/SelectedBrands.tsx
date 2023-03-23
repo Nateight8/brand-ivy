@@ -5,6 +5,8 @@ import Brand from "./Brand";
 type Props = {};
 
 function SelectedBrands({}: Props) {
+  const brands = [{}];
+
   return (
     <div className="py-4">
       <Header>Selected Brands</Header>

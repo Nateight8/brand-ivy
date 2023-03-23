@@ -1,7 +1,7 @@
 import React from "react";
 
 type Props = {
-  children?: string;
+  children?: any;
 };
 
 function Button({ children }: Props) {
