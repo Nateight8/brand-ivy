@@ -7,7 +7,7 @@ type Props = {};
 
 function Home({}: Props) {
   return (
-    <div>
+    <div className="px-4">
       <Hero />
       <BlogArticles />
       <Connect />

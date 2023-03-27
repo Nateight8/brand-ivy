@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
     body{
         @apply bg-[#121212] text-[#f4f2ed]

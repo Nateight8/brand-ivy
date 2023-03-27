@@ -16,10 +16,10 @@ function Hero({}: Props) {
     >
       <div className="inset-0 absolute bg-black z-0 opacity-30" />
       <div className="grid grid-cols-6  h- w-full z-10">
-        <h1 className="col-span-full whitespace-nowrap  text-5xl md:text-8xl lg:text-9xl ">
+        <h1 className=" col-span-full whitespace-nowrap  text-5xl md:text-8xl lg:text-9xl ">
           FASHION
         </h1>
-        <h1 className=" col-span-full whitespace-nowrap xl:col-start-2 text-5xl md:text-8xl  lg:text-9xl pb-3 ">
+        <h1 className="  col-span-full whitespace-nowrap xl:col-start-2 text-5xl md:text-8xl  lg:text-9xl pb-3 ">
           & BRANDING
         </h1>
         <p className="opacity-100 col-span-full sm:col-span-4  md:col-span-5 xl:col-start-2 xl:col-span-3 text-xl ">

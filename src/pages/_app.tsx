@@ -22,6 +22,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       <AnimatePresence initial={false} mode={"wait"}>
         <Component key={router.pathname} {...pageProps} />
       </AnimatePresence>
+      <Footer />
     </div>
   );
 }

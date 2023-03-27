@@ -26,7 +26,8 @@ export default function Home() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.75, ease: "easeInOut" }}
-        className=" absolute top-20 left-0 w-full h-full"
+        className="px-4"
+        // className=" absolute top-20 left-0 w-full h-full"
       >
         <Hero />
         <Services />
