@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/nav/Navbar";
 import "@/styles/globals.css";
+import { AnimatePresence } from "framer-motion";
 import type { AppProps } from "next/app";
 // import Inter from "/fonts/chillax-light.woff";
 // import localFont from "@next/font/local";
@@ -14,12 +15,13 @@ import type { AppProps } from "next/app";
 //   ],
 // });
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps, router }: AppProps) {
   return (
-    <div className={""}>
+    <div className="relative">
       <Navbar />
-      <Component {...pageProps} />
-      <Footer />
+      <AnimatePresence initial={false} mode={"wait"}>
+        <Component key={router.pathname} {...pageProps} />
+      </AnimatePresence>
     </div>
   );
 }

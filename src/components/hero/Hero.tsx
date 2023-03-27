@@ -6,21 +6,7 @@ type Props = {};
 
 function Hero({}: Props) {
   return (
-    <motion.div
-      initial="hide"
-      animate="show"
-      variants={{
-        hide: {
-          opacity: 0,
-          y: -20,
-          scale: 0.8,
-        },
-        show: {
-          opacity: 1,
-          y: 0,
-          scale: 1,
-        },
-      }}
+    <div
       className="h-[28.125rem] relative w-full md:h-screen mt-4 rounded-md  flex items-end pb-7 px-4 md:px-14 lg:px-24"
       style={{
         backgroundImage: "url(/images/5.png)",
@@ -41,7 +27,7 @@ function Hero({}: Props) {
           Strategic Marketing and Advertising.
         </p>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

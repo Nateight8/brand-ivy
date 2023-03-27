@@ -10,6 +10,7 @@ import Connect from "@/components/connect/Connect";
 import Articles from "@/components/articles/Articles";
 import Newslatter from "@/components/connect/Newslatter";
 import Footer from "@/components/footer/Footer";
+import { motion as m } from "framer-motion";
 
 export default function Home() {
   return (
@@ -20,7 +21,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" px-4">
+      <m.main
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.75, ease: "easeInOut" }}
+        className=" absolute top-20 left-0 w-full h-full"
+      >
         <Hero />
         <Services />
         <div className="h-[30vh]" />
@@ -29,7 +36,7 @@ export default function Home() {
         <Connect />
         <Articles />
         <Newslatter />
-      </main>
+      </m.main>
     </>
   );
 }

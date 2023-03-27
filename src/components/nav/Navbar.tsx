@@ -12,9 +12,10 @@ function Navbar({}: Props) {
   ];
 
   const path = usePathname();
+
   return (
-    <nav>
-      <div className="w-full  flex justify-between my-7 px-4 items-center">
+    <nav className="sticky top-0 z-20 bg-[#121212]">
+      <div className="w-full  flex justify-between py-7 px-4 items-center">
         <Link
           className="text-2xl uppercase "
           href="/"
